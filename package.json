@@ -1,5 +1,5 @@
 {
-  "name": "y-fire",
+  "name": "y-fire-v11",
   "version": "2.1.1",
   "description": "A firebase (firestore) provider for Yjs",
   "main": "dist/index.js",
