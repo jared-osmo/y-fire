@@ -101,7 +101,7 @@ export class FireProvider extends ObservableV2<any> {
       this.initiateHandler();
       addEventListener("beforeunload", this.destroy); // destroy instance on window close
     } catch (error) {
-      this.consoleHandler("Could not connect to a peer network.");
+      this.consoleHandler(`Could not connect to a peer network. ${error}`, error);
       this.kill(true); // destroy provider but keep the read-only stream alive
     }
   };
