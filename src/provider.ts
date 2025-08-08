@@ -7,7 +7,7 @@ import {
   doc,
   setDoc,
   Bytes,
-} from "@firebase/firestore";
+} from "firebase/firestore";
 import { collection } from "firebase/firestore";
 import * as Y from "yjs";
 import { ObservableV2 } from "lib0/observable";
